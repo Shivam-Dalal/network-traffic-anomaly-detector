@@ -1,0 +1,22 @@
+=== Classification report (0=normal, 1=attack) ===
+              precision    recall  f1-score   support
+
+           0      0.993     1.000     0.997      1200
+           1      1.000     0.926     0.962       108
+
+    accuracy                          0.994      1308
+   macro avg      0.997     0.963     0.979      1308
+weighted avg      0.994     0.994     0.994      1308
+
+=== Confusion matrix ===
+[[1200    0]
+ [   8  100]]
+ROC-AUC: 1.000
+
+=== Detection rate by traffic type ===
+true_label
+dos             0.900
+exfiltration    1.000
+normal          0.000
+port_scan       0.878
+Name: predicted_anomaly, dtype: float64
