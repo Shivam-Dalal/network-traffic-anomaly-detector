@@ -13,7 +13,7 @@ outliers, which is the same core idea behind real anomaly-based intrusion
 detection systems (and ties into the broader "AI-enabled security monitoring"
 approach many security teams are adopting).
 
-## What's real vs. simulated (read this before discussing the project)
+## What's real vs. simulated
 
 - **Training/evaluation data is simulated**, generated with realistic feature
   distributions for benign traffic (web/DNS/SSH-like patterns) and three
